@@ -1,0 +1,8 @@
+[package]
+name = "bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.36.0", features = ["macros", "rt-multi-thread"] }
+zerotier-controller = { path = "../zerotier-controller" }
